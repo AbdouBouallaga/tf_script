@@ -22,7 +22,7 @@ source_ranges = ["0.0.0.0/0"]
 module "mynet-us-vm" {
   source           = "./instance"
   instance_name    = "mynet-us-vm"
-  instance_zone    = "Zone"
+  instance_zone    = "us-west1-b"
   instance_network = google_compute_network.mynetwork.self_link
 }
 # Create the mynet-eu-vm" instance
