@@ -4,5 +4,4 @@ git clone https://github.com/AbdouBouallaga/tf_script.git tfinfra
 cd tfinfra
 terraform init
 terraform fmt -recursive
-terraform plan
-terraform apply -auto-approve
+terraform plan && terraform apply -auto-approve
